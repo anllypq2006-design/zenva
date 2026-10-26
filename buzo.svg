@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Buzo deportivo con capucha">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D8CCFF"/><stop offset="1" stop-color="#A98EFF"/></linearGradient>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#000" stop-opacity=".12"/></linearGradient></defs>
+<rect width="600" height="750" fill="url(#g)"/>
+<circle cx="300" cy="400" r="250" fill="#fff" fill-opacity=".12"/>
+<g>
+<path d="M215 215L150 255L105 575L158 585L192 345V610H408V345L442 585L495 575L450 255L385 215Z" fill="#1E1433"/>
+<path d="M215 215L150 255L105 575L158 585L192 345V610H408V345L442 585L495 575L450 255L385 215Z" fill="url(#s)"/>
+<path d="M232 220C230 130 370 130 368 220C345 262 255 262 232 220Z" fill="#FF6B57"/>
+<path d="M262 232C285 250 315 250 338 232" stroke="#1E1433" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M285 250V330M315 250V330" stroke="#C9B8FF" stroke-width="5" stroke-linecap="round"/>
+<path d="M232 480H368L385 560H215Z" fill="#C9B8FF" fill-opacity=".25"/>
+</g>
+</svg>

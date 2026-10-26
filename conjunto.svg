@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Conjunto deportivo top y leggings">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A1B4D"/><stop offset="1" stop-color="#5B3FB3"/></linearGradient>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#000" stop-opacity=".12"/></linearGradient></defs>
+<rect width="600" height="750" fill="url(#g)"/>
+<circle cx="300" cy="400" r="250" fill="#fff" fill-opacity=".12"/>
+<g transform="translate(105 60) scale(.65)">
+<path d="M215 150L255 150C262 235 338 235 345 150L385 150C397 260 382 330 372 390H228C218 330 203 260 215 150Z" fill="#C9B8FF"/>
+<path d="M228 365H372" stroke="#1E1433" stroke-width="12" stroke-linecap="round"/>
+</g>
+<g transform="translate(105 235) scale(.65)">
+<path d="M205 150H395C405 260 385 330 375 420L360 650H312L300 340L288 650H240L225 420C215 330 195 260 205 150Z" fill="#C9B8FF"/>
+<rect x="203" y="150" width="194" height="38" rx="6" fill="#FF6B57"/>
+</g>
+</svg>

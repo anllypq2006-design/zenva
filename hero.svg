@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" role="img" aria-label="Conjunto deportivo ZENVA en movimiento">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset="1" stop-color="#000" stop-opacity=".15"/></linearGradient></defs>
+<rect width="800" height="900" fill="#C9B8FF"/>
+<circle cx="430" cy="440" r="330" fill="#FF6B57"/>
+<circle cx="430" cy="440" r="330" fill="none" stroke="#1E1433" stroke-width="3" stroke-dasharray="3 14" transform="scale(1.12) translate(-52 -52)"/>
+<g stroke="#1E1433" stroke-width="6" stroke-linecap="round" opacity=".85">
+<path d="M70 300H210M40 360H170M90 420H200"/></g>
+<g transform="translate(250 90) scale(.95)">
+<path d="M215 150L255 150C262 235 338 235 345 150L385 150C397 260 382 330 372 390H228C218 330 203 260 215 150Z" fill="#1E1433"/>
+<path d="M215 150L255 150C262 235 338 235 345 150L385 150C397 260 382 330 372 390H228C218 330 203 260 215 150Z" fill="url(#s)"/>
+<path d="M228 365H372" stroke="#C9B8FF" stroke-width="12" stroke-linecap="round"/>
+</g>
+<g transform="translate(250 300) scale(.95)">
+<path d="M205 150H395C405 260 385 330 375 420L360 650H312L300 340L288 650H240L225 420C215 330 195 260 205 150Z" fill="#1E1433"/>
+<path d="M205 150H395C405 260 385 330 375 420L360 650H312L300 340L288 650H240L225 420C215 330 195 260 205 150Z" fill="url(#s)"/>
+<rect x="203" y="150" width="194" height="38" rx="6" fill="#C9B8FF"/>
+<path d="M214 196C212 300 232 380 244 640M386 196C388 300 368 380 356 640" stroke="#FF6B57" stroke-width="5" fill="none" stroke-linecap="round"/>
+</g>
+</svg>

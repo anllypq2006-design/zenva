@@ -1,0 +1,69 @@
+:root{
+  --ink:#1E1433; --lilac:#C9B8FF; --coral:#FF6B57; --mist:#F4F1FB; --white:#fff;
+  --display:"Unbounded","Arial Black",system-ui,sans-serif;
+  --body:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:var(--body);color:var(--ink);background:var(--mist);line-height:1.6;font-size:1.0625rem}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
+
+.top{position:sticky;top:0;z-index:10;display:flex;align-items:center;gap:1.5rem;padding:.9rem clamp(1rem,4vw,3rem);background:var(--ink);color:var(--white)}
+.logo{font-family:var(--display);font-weight:900;font-size:1.25rem;text-decoration:none;color:var(--lilac);margin-right:auto}
+.top nav{display:flex;gap:1.5rem}
+.top nav a{text-decoration:none;font-weight:500}
+.top nav a:hover{color:var(--lilac)}
+
+.btn{display:inline-block;padding:.9rem 1.6rem;background:var(--coral);color:var(--ink);font-weight:700;text-decoration:none;border-radius:999px;border:2px solid var(--coral);transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-small{padding:.5rem 1.1rem;font-size:.95rem}
+.btn-ghost{background:transparent;border-color:var(--ink)}
+.btn-light{background:var(--lilac);border-color:var(--lilac)}
+
+.hero{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:2rem;padding:clamp(2rem,6vw,5rem) clamp(1rem,4vw,3rem);max-width:1300px;margin:auto}
+.hero h1{font-family:var(--display);font-weight:900;font-size:clamp(2.6rem,7.5vw,6rem);line-height:1;letter-spacing:-.03em}
+.hero-copy p{max-width:34ch;margin:1.5rem 0 2rem;font-size:1.2rem}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.8rem}
+.hero-img{border-radius:2rem;width:100%;animation:enter .9s cubic-bezier(.2,.8,.2,1) both}
+@keyframes enter{from{opacity:0;transform:translateY(24px) scale(.97)}}
+
+.coleccion,.nosotras{padding:clamp(3rem,7vw,6rem) clamp(1rem,4vw,3rem);max-width:1300px;margin:auto}
+h2{font-family:var(--display);font-weight:700;font-size:clamp(1.8rem,4vw,3rem);line-height:1.1;letter-spacing:-.02em}
+.section-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:1.25rem;margin-bottom:2rem}
+.filters{display:flex;flex-wrap:wrap;gap:.5rem}
+.chip{font:inherit;font-weight:500;padding:.45rem 1rem;border-radius:999px;border:2px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+.chip.is-active{background:var(--ink);color:var(--white)}
+
+.grid{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1.5rem}
+.card{background:var(--white);border-radius:1.5rem;overflow:hidden;display:flex;flex-direction:column}
+.card[hidden]{display:none}
+.card:nth-child(3n+2){margin-top:2rem}
+.card-body{padding:1.1rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.35rem;flex:1}
+.card h3{font-family:var(--display);font-size:1rem;font-weight:700}
+.card p{font-size:.95rem;opacity:.8}
+.buy{margin-top:auto;padding-top:.6rem;font-weight:700;color:var(--coral);text-underline-offset:4px}
+
+.nosotras{border-top:2px solid var(--ink)}
+.nosotras h2{max-width:20ch;margin-bottom:2.5rem}
+.values{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem}
+.values h3{font-family:var(--display);font-size:1.05rem;margin-bottom:.5rem}
+
+.contacto{background:var(--ink);color:var(--white);text-align:center;padding:clamp(3rem,8vw,6rem) 1.25rem}
+.contacto p{max-width:46ch;margin:1rem auto 2rem}
+
+footer{background:var(--ink);color:var(--lilac);padding:0 1rem 1.5rem;text-align:center;overflow:hidden}
+.wordmark{font-family:var(--display);font-weight:900;font-size:clamp(4rem,22vw,18rem);line-height:.9;letter-spacing:-.04em;color:transparent;-webkit-text-stroke:2px var(--lilac)}
+.foot{font-size:.9rem;opacity:.8}
+
+@media (max-width:760px){
+  .top nav{display:none}
+  .hero{grid-template-columns:1fr}
+  .card:nth-child(3n+2){margin-top:0}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .hero-img{animation:none}
+  .btn{transition:none}
+}
